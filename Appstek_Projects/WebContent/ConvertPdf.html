@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$("#md").click(function(event){
+		console.log(event);
+		alert("hello");
+	});
+	alert("hi");
+
+	$( "#md" ).trigger( "click" );
+});
+</script>
+</head>
+<body style="height: 200px; width: 200px;">
+<button id="md"  >click</button>
+<!-- <iframe src="ViewerJS/#../my4.odt" style="height: 600px; width: 600px;">click</iframe> -->
+</body>
+</html>
