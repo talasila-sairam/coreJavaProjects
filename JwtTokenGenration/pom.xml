@@ -15,11 +15,11 @@
 		      <version>v1-rev266-1.23.0</version>
          </dependency>
         
-           <dependency>
+          <!--  <dependency>
 		      <groupId>com.google.firebase</groupId>
 		      <artifactId>google-api-services-firebaserules</artifactId>
 		      <version>v1-rev266-1.23.0</version>
-           </dependency>
+           </dependency> -->
         
 		<dependency>
 			<groupId>junit</groupId>
