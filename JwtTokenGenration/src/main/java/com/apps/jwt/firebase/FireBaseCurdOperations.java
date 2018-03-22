@@ -7,7 +7,7 @@ public class FireBaseCurdOperations {
    public void retriveFirebaseData() {
 	// get the base-url (ie: 'http://gamma.firebase.com/username')
 			String firebase_baseUrl = null;
-			for( String s : args ) {
+			for( String s : new String[] {""} ) {
 				if( s == null || s.trim().isEmpty() ) continue;
 				if( s.trim().split( "=" )[0].equals( "baseUrl" ) ) {
 					firebase_baseUrl = s.trim().split( "=" )[1];
